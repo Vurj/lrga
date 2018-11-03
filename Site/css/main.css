@@ -1,0 +1,119 @@
+* {
+ font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  display: grid;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-weight: 500;
+}
+
+h2 {
+  color: white;
+  font-weight: 400;
+}
+
+p {
+  color: white;
+  font-size: 1em;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  display: grid;
+}
+
+.topcontent {
+  display: grid;
+  background: url('../img/infobgsh.png') no-repeat center top;
+  background-size:contain;
+  width: 100%;
+  height: 1650px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr fit-content(100px) 1fr;
+
+
+  /* width: 100%;
+  height: 0;
+  padding-top:  112.1%; */
+}
+
+.logocontainer {
+  display: grid;
+  grid-column: span 2;
+  height: 720px;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.logocontainer img {
+  height: 520px;
+  padding-top: 0px;
+  padding-right: 40px;
+}
+
+.textcontainer1 {
+  padding-top: 140px;
+  justify-content: center;
+  align-content: center;
+}
+
+.textcontainer1 h1{
+
+  text-align: center;
+  font-size: 36px;
+
+}
+
+.textcontainer1 h2{
+
+  text-align: center;
+  font-size: 32px;
+
+}
+
+.fancontainer {
+  padding-top: 30px;
+  display: grid;
+  justify-content: end;
+
+}
+
+.fancontainer img {
+  height: 420px;
+}
+
+.textcontainer2 {
+  display: grid;
+  align-content: start;
+  padding-top: 50px;
+  grid-column: span 2;
+}
+
+.textcontainer2 h2{
+  padding-left: 120px;
+  font-size: 23px;
+  text-align: left;
+  grid-row: span 2;
+}
+
+
+
+.infocontent {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+}
