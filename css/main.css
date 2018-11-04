@@ -14,6 +14,12 @@ body {
   width: 100%;
 }
 
+a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
 h1 {
   color: white;
   font-weight: 500;
@@ -104,16 +110,173 @@ p {
   grid-column: span 2;
 }
 
-.textcontainer2 h2{
+.textcontainer2 h2 {
   padding-left: 120px;
   font-size: 23px;
   text-align: left;
   grid-row: span 2;
 }
 
-
-
 .infocontent {
   display: grid;
   grid-template-columns: 1.4fr 1fr;
+  padding-bottom: 90px;
+}
+
+.textcontainer3 {
+  display: grid;
+  padding-left: 120px;
+  padding-right: 40px;
+}
+
+.textcontainer3 h2 {
+  font-size: 25px;
+  color: black;
+}
+
+.textcontainer3 p {
+  font-size: 14px;
+  color: black;
+}
+
+.multilogos {
+  margin: 60px 0 20px 0;
+  border-left: 1px solid;
+  border-color: black;
+  display: grid;
+}
+
+.multilogoscontainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px 40px 10px 40px;
+  justify-items: center;
+  align-content: center;
+}
+
+.bookingcontent{
+  background-color: #212B3F;
+  display: grid;
+  padding: 50px 120px 140px 120px;
+  column-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.bookingtext{
+  margin-bottom: 40px;
+  grid-column: span 3;
+  border-bottom: 4px solid;
+  border-color: white;
+}
+
+.bookingtext h1{
+  font-size: 35px;
+}
+
+.bronzepanel{
+  height: 0;
+  padding-top: 86%;
+  display: flex;
+  flex-direction: column-reverse;
+  background: linear-gradient(
+    rgba(165, 67, 35, 0.6),
+    rgba(165, 67, 35, 0.6)
+    ),
+    url('../img/bronze.png') no-repeat center top;
+  background-size:contain;
+}
+
+.btext, .stext, .gtext{
+  display: grid;
+  padding-left: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.btext h2, .stext h2, .gtext h2{
+  font-size: 30px;
+  line-height: 0;
+}
+
+.btext p, .stext p, .gtext p{
+  font-size: 25px;
+  line-height: 0;
+}
+
+
+.silverpanel{
+  display: flex;
+  flex-direction: column-reverse;
+  background: linear-gradient(
+  rgba(188, 187, 187, 0.7),
+  rgba(188, 187, 187, 0.7)
+  ),
+  url('../img/silver.png') no-repeat center top;
+background-size:contain;
+}
+
+.goldpanel{
+  display: flex;
+  flex-direction: column-reverse;
+  background: linear-gradient(
+  rgba(212, 175, 55, 0.5),
+  rgba(212, 175, 55, 0.5)
+  ),
+  url('../img/gold.png') no-repeat center top;
+background-size:contain;
+}
+
+.btext2, .stext2, .gtext2{
+  padding-top: 25px;
+ color: white;
+}
+
+.btext2, .stext2, .gtext2{
+  padding-top: 25px;
+  color: white;
+}
+
+.btext2 p, .stext2 p, .gtext2 p{
+  font-size: 1.2em
+}
+
+.buttoncontainer {
+  display: grid;
+  justify-content: center;
+
+}
+
+.buttoncontainer a{
+  text-align: center;
+  font-size: 50px;
+}
+
+.btn{
+  box-shadow: 10px 10px 11px -4px rgba(0,0,0,0.44);
+  margin-top: -75px;
+  vertical-align: middle;
+  padding: 30px 60px 30px 60px;
+  background-color: #DC4F4F;
+  color: white;
+}
+
+.tbcontent{
+
+  padding: 200px 127px 127px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.tbcontent h1{
+  color: black;
+  grid-column: span 4;
+  padding-bottom: 70px;
+}
+
+.tbcontent img{
+  width: 100%;
+}
+
+.footer{
+  background-color: #212B3F;
 }
