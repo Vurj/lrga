@@ -39,15 +39,27 @@ p {
 
 .wrapper {
   justify-self: center;
-  max-width: 1440px;
+  width: 100%;
   display: grid;
   margin: 0;
 }
 
+.heroimg{
+  position: absolute;
+  background: url(../img/infobgsh.png) no-repeat center top;
+  background-size: contain;
+  width: 100%;
+  height: 0;
+  padding-top: 113%;
+  z-index: -1;
+}
+
 .topcontent {
   display: grid;
-  background: url(../img/infobgsh.png) no-repeat center top;
-  background-size: 100%;
+  /* background: url(../img/infobgsh.png) no-repeat center top;
+  background-size: contain;
+  padding-top: 113px;
+  height:0;*/
   width: 100%;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr fit-content(100px) 0.67fr;
@@ -63,18 +75,15 @@ p {
 }
 
 .logocontainer {
-  display: grid;
+  padding: 7% 32% 5% 30%;
   grid-column: span 2;
-  height: 720px;
-  width: 100%;
-  justify-content: center;
-  align-content: center;
+  height: auto;
 }
 
 .logocontainer img {
-  height: 520px;
+  height: auto;
   padding-top: 0px;
-  padding-right: 40px;
+  padding-right: 00px;
 }
 
 .textcontainer1 {
@@ -105,7 +114,7 @@ p {
 }
 
 .fancontainer img {
-  height: 420px;
+  width: 100%;
 }
 
 .textcontainer2 {
