@@ -38,10 +38,18 @@ p {
 }
 
 .wrapper {
+  font-size: 150%;
   justify-self: center;
   width: 100%;
   display: grid;
   margin: 0;
+}
+
+@media (max-width: 1500px) {
+  .wrapper {
+    font-size: 100%;
+  }
+
 }
 
 .heroimg{
