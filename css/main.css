@@ -49,6 +49,7 @@ p {
   .wrapper {
     font-size: 100%;
   }
+}
 
   @media (max-width: 1300px) {
     .wrapper {
