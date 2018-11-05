@@ -41,7 +41,7 @@ p {
   background: url(../img/infobgsh.png) no-repeat center top;
   background-size: contain;
   margin: 0 20%;
-  font-size: 1250%;
+  font-size: 125%;
   justify-self: center;
   display: grid;
 }
