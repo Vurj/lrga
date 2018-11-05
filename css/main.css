@@ -65,7 +65,7 @@ p {
 
     @media (max-width: 1100px) {
       .wrapper {
-        font-size: 80%
+        font-size: 80%;
       }
       .topcontent {
         font-size: 90%;
