@@ -50,6 +50,13 @@ p {
     font-size: 100%;
   }
 
+  @media (max-width: 1300px) {
+    .wrapper {
+      font-size: 90%;
+    }
+
+  }
+
 }
 
 .heroimg{
@@ -176,6 +183,11 @@ p {
   align-content: center;
 }
 
+.multilogoscontainer img{
+  width: 100%;
+
+}
+
 .bookingcontent{
   background-color: #212B3F;
   display: grid;
@@ -183,6 +195,20 @@ p {
   column-gap: 40px;
   grid-template-columns: 1fr 1fr 1fr;
 
+}
+
+@media (max-width: 1000px){
+    .bookingcontent {
+    padding: 50px 20px 70px 20px;
+    column-gap: 10px;
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 900px){
+    .bookingcontent{
+    font-size: 50%;
+  }
 }
 
 .bookingtext{
