@@ -54,10 +54,24 @@ p {
     .wrapper {
       font-size: 90%;
     }
+  }
+
+    @media (max-width: 1200px) {
+      .topcontent {
+        font-size: 90%;
+      }
+    }
+
+    @media (max-width: 1100px) {
+      .wrapper {
+        font-size: 80%
+      }
+      .topcontent {
+        font-size: 90%;
+      }
 
   }
 
-}
 
 .heroimg{
   position: absolute;
@@ -107,6 +121,12 @@ p {
   align-content: center;
 }
 
+@media (max-width: 1500px) {
+.textcontainer1 {
+
+  }
+}
+
 .textcontainer1 h1{
 
   text-align: center;
@@ -141,15 +161,28 @@ p {
 
 .textcontainer2 h2 {
   padding-left: 120px;
-  font-size: 1.438em;
+  font-size: 1.7em;
   text-align: left;
   grid-row: span 2;
 }
 
+@media (max-width: 1200px) {
+.textcontainer2 h2 {
+    padding-left: 70px;
+  }
+}
+
 .infocontent {
   display: grid;
-  grid-template-columns: 1.4fr 1fr;
+  grid-template-columns: 1.8fr 1fr;
   padding-bottom: 90px;
+}
+
+@media (max-width: 1000px) {
+.infocontent{
+  grid-template-columns: 1fr;
+  padding: 10px 40px 10px 40px;
+}
 }
 
 .textcontainer3 {
@@ -164,7 +197,7 @@ p {
 }
 
 .textcontainer3 p {
-  font-size: 0.875em;
+  font-size: 1em;
   color: black;
 }
 
@@ -183,8 +216,12 @@ p {
   align-content: center;
 }
 
+
+
+
 .multilogoscontainer img{
   width: 100%;
+  align-self: center;
 
 }
 
