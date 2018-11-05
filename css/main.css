@@ -41,7 +41,7 @@ p {
   background: url(../img/infobgsh.png) no-repeat center top;
   background-size: contain;
   margin: 0 20%;
-  font-size: 150%;
+  font-size: 1250%;
   justify-self: center;
   display: grid;
 }
@@ -102,6 +102,12 @@ p {
   padding-top:  112.1%; */
 }
 
+@media (max-width: 1000px) {
+  .topcontent {
+    font-size: 50%;
+  }
+}
+
 .topcontent img{
 
 }
@@ -124,8 +130,10 @@ p {
   align-content: center;
 }
 
-@media (max-width: 1500px) {
-
+@media (max-width: 1000px) {
+  .textcontainer1 {
+    padding-top: 10%;
+  }
 }
 
 .textcontainer1 h1{
@@ -149,6 +157,12 @@ p {
 
 }
 
+@media (max-width: 1200px) {
+.fancontainer {
+    padding-top: 0px;
+  }
+}
+
 .fancontainer img {
   width: 100%;
 }
@@ -158,6 +172,12 @@ p {
   align-content: start;
   padding-top: 50px;
   grid-column: span 2;
+}
+
+@media (max-width: 1200px) {
+  .textcontainer2 {
+    padding-top: 5px;
+  }
 }
 
 .textcontainer2 h2 {
