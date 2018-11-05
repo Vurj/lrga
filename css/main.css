@@ -95,14 +95,14 @@ p {
 .textcontainer1 h1{
 
   text-align: center;
-  font-size: 36px;
+  font-size: 2.25em
 
 }
 
 .textcontainer1 h2{
 
   text-align: center;
-  font-size: 32px;
+  font-size: 2em;
 
 }
 
@@ -126,7 +126,7 @@ p {
 
 .textcontainer2 h2 {
   padding-left: 120px;
-  font-size: 23px;
+  font-size: 1.438em;
   text-align: left;
   grid-row: span 2;
 }
@@ -144,12 +144,12 @@ p {
 }
 
 .textcontainer3 h2 {
-  font-size: 25px;
+  font-size: 1.563em;
   color: black;
 }
 
 .textcontainer3 p {
-  font-size: 14px;
+  font-size: 0.875em;
   color: black;
 }
 
@@ -185,7 +185,7 @@ p {
 }
 
 .bookingtext h1{
-  font-size: 35px;
+  font-size: 2.188em;
 }
 
 .bronzepanel{
@@ -208,12 +208,12 @@ p {
 }
 
 .btext h2, .stext h2, .gtext h2{
-  font-size: 30px;
+  font-size: 1.875em;
   line-height: 0;
 }
 
 .btext p, .stext p, .gtext p{
-  font-size: 25px;
+  font-size: 1.563em;
   line-height: 0;
 }
 
@@ -262,7 +262,7 @@ background-size:contain;
 
 .buttoncontainer a{
   text-align: center;
-  font-size: 50px;
+  font-size: 3.125em;
 }
 
 .btn{
