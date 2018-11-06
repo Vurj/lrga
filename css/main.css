@@ -35,7 +35,7 @@ p {
 }
 
 .wrapper {
-  margin: 0 15%;
+  margin: 0;
   font-size: 1vw;
   justify-self: center;
   display: grid;
@@ -44,7 +44,6 @@ p {
 @media (max-width: 1800px) {
   .wrapper {
     font-size: 100%;
-    margin: 0;
   }
 }
 
