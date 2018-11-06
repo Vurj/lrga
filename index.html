@@ -15,6 +15,15 @@
   </head>
   <body>
     <div class="wrapper">
+      <div class="herowrapper">
+        <div class="heroslider">
+          <img src="./img/slider1.jpg" class="herocell">
+          <img src="./img/slider2.jpg" class="herocell">
+          <img src="./img/slider3.jpg" class="herocell">
+          <img src="./img/slider4.jpg" class="herocell">
+          <img src="./img/slider5.jpg" class="herocell">
+        </div>
+      </div>
       <div class="topcontent">
         <div class="logocontainer">
           <img src="./img/logo.svg">
@@ -151,6 +160,32 @@
     <div style="display: none; width:80%" id="bookbtn">
     <script type="text/javascript" src="https://partners.designmynight.com/pw?v=3&r=9533898" item-ids="5bda2c327af0dd31631cd524"></script>
     </div>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $(".herowrapper").css({
+        'height': ($(".topcontent").height() + 'px')
+      });
+    });
+    </script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $(".herocell").css({
+        'height': ($(".topcontent").height() + 'px')
+      });
+    });
+    </script>
+
+    <script type="text/javascript">
+      $('.heroslider').flickity({
+        // options
+        contain: true,
+        freeScroll: true,
+        autoPlay: true,
+      });
+    </script>
+
 
 
   </body>
