@@ -207,7 +207,7 @@ p {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 770px) {
   .infocontent{
     grid-template-columns: 1fr;
     padding: 10px 00px 10px 00px;
@@ -251,7 +251,7 @@ p {
   align-content: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 770px) {
   .multilogoscontainer {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 1%;
@@ -275,15 +275,6 @@ p {
 
 }
 
-@media (max-width: 1000px){
-    .bookingcontent {
-    padding: 50px 40px 70px 40px;
-    column-gap: 10px;
-    font-size: 100%;
-    grid-template-columns: 1fr;
-    grid-row-gap: 60px;
-  }
-}
 
 @media (max-width: 900px){
     .bookingcontent{
@@ -297,13 +288,36 @@ p {
   border-color: white;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 770px){
+  .bookingcontent {
+  padding: 50px 20% 70px 20%;
+  column-gap: 10px;
+  font-size: 140%;
+  grid-template-columns: 1fr;
+  grid-row-gap: 60px;
+}
+
     .bookingtext {
     grid-column: span 1;
-    padding: 50px 20px 70px 20px;
-    column-gap: 10px;
-    font-size: 70%;
+    padding: 20px 20px 0px 20px;
+    column-gap:0px;
+    margin:  0 -20px -20px -20px;
   }
+    .btext2{
+    grid-row: start 2;
+    margin-top: -20px;
+    }
+    .stext2 {
+      grid-row: start 4;
+      margin-top: -20px;
+    }
+    .gtext2 {
+      grid-row: start 6;
+      margin-top: -20px;
+    }
+    .bronzepanel, .silverpanel, .goldpanel {
+    margin-bottom: -60px;
+    }
 }
 
 .bookingtext h1{
