@@ -71,14 +71,12 @@ p {
   }
 
 .herowrapper{
-  pointer-events: none;
   background-color: rgba(36, 46, 70, 100);
   width: 100%;
-  position: absolute;
+  position: absolute
 }
 
 .heroslider{
-  pointer-events: all;
   height: 100%;
 }
 
@@ -89,8 +87,8 @@ p {
 
 
 .topcontent {
-  z-index: 1;
   pointer-events: none;
+  z-index: 1;
 /*  background: linear-gradient(
     rgba(36, 46, 70, 0.8),
     rgba(36, 46, 70, 0.8)
