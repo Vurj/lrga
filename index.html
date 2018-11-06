@@ -157,7 +157,7 @@
       </div>
     </div>
 
-    <div style="display: none; width:80%" id="bookbtn">
+    <div style="display: none; pointer-events: auto; width:80%" id="bookbtn">
     <script type="text/javascript" src="https://partners.designmynight.com/pw?v=3&r=9533898" item-ids="5bda2c327af0dd31631cd524"></script>
     </div>
 
@@ -182,7 +182,10 @@
         // options
         contain: true,
         freeScroll: true,
-        autoPlay: true,
+        autoPlay: 6000,
+        selectedAttraction: 0.01,
+        friction: 0.15,
+        imagesLoaded: true,
       });
     </script>
 
