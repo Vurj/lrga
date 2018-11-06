@@ -38,8 +38,7 @@ p {
 }
 
 .wrapper {
-  background: url(../img/bg2.jpg) no-repeat center top;
-  background-size: contain;
+
   margin: 0 15%;
   font-size: 1vw;
   justify-self: center;
@@ -79,7 +78,7 @@ p {
 .heroimg{
   position: absolute;
   background: url(../img/infobgsh.png) no-repeat center top;
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 0;
   padding-top: 113%;
@@ -87,7 +86,14 @@ p {
 }
 
 .topcontent {
+  background: linear-gradient(
+    rgba(36, 46, 70, 0.8),
+    rgba(36, 46, 70, 0.8)
+    ),
+  url(../img/bg2.jpg) no-repeat center top;
+  background-size: cover;
   display: grid;
+  -webkit-backdrop-filter: blur(5px);
   /* background: url(../img/infobgsh.png) no-repeat center top;
   background-size: contain;
   padding-top: 113px;
@@ -113,7 +119,8 @@ p {
 }
 
 .logocontainer {
-  padding: 7% 32% 5% 30%;
+  padding: 0% 12% 0% 10%;
+  margin-bottom: -30%;
   grid-column: ;
   height: auto;
 }
@@ -154,7 +161,8 @@ p {
 }
 
 .fancontainer {
-  padding-top: 30px;
+  padding-right: 60%;
+  margin-top: -3%;
   display: grid;
   justify-content: end;
 
