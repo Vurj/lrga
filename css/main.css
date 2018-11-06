@@ -40,13 +40,13 @@ p {
 .wrapper {
   background: url(../img/infobgsh.png) no-repeat center top;
   background-size: contain;
-  margin: 0 20%;
+  margin: 0 15%;
   font-size: 1vw;
   justify-self: center;
   display: grid;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1800px) {
   .wrapper {
     font-size: 100%;
     margin: 0;
@@ -199,17 +199,31 @@ p {
   padding-bottom: 90px;
 }
 
-@media (max-width: 1000px) {
-.infocontent{
-  grid-template-columns: 1fr;
-  padding: 10px 40px 10px 40px;
+@media (max-width: 1300px) {
+  .infocontent{
+    grid-template-columns: 1.8fr 1fr;
+    padding: 10px 10px 10px 10px;
+  }
 }
+
+
+@media (max-width: 700px) {
+  .infocontent{
+    grid-template-columns: 1fr;
+    padding: 10px 00px 10px 00px;
+  }
 }
 
 .textcontainer3 {
   display: grid;
   padding-left: 120px;
   padding-right: 40px;
+}
+
+@media (max-width: 1200px) {
+  .textcontainer3 {
+      padding-left: 70px;
+  }
 }
 
 .textcontainer3 h2 {
@@ -223,7 +237,7 @@ p {
 }
 
 .multilogos {
-  margin: 60px 0 20px 0;
+  margin: 5% 0 20px 0;
   border-left: 1px solid;
   border-color: black;
   display: grid;
@@ -237,6 +251,12 @@ p {
   align-content: center;
 }
 
+@media (max-width: 700px) {
+  .multilogoscontainer {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1%;
+}
+}
 
 
 
@@ -351,6 +371,8 @@ background-size:contain;
  color: white;
 }
 
+
+
 .btext2, .stext2, .gtext2{
   padding-top: 25px;
   color: white;
@@ -363,19 +385,19 @@ background-size:contain;
 .buttoncontainer {
   display: grid;
   justify-content: center;
-
 }
 
 .buttoncontainer a{
   text-align: center;
-  font-size: 3.125em;
+  font-size: 1.5em;
+
 }
 
 .btn{
   box-shadow: 10px 10px 11px -4px rgba(0,0,0,0.44);
-  margin-top: -75px;
+  margin-top: ;
   vertical-align: middle;
-  padding: 30px 60px 30px 60px;
+  padding: 15px 20px 15px 20px;
   background-color: #DC4F4F;
   color: white;
 }
