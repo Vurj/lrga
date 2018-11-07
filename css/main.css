@@ -492,8 +492,8 @@ background-size:cover;
 
 .fillercontent{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0 0 10% 7%;
+  grid-template-columns: 2fr 1fr;
+  margin: 5% 7% 10% 7%;
 }
 
 
@@ -529,6 +529,13 @@ background-size:cover;
   display: grid;
   padding: 5% 7% 7% 10%;
 
+}
+
+.screenshots{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5%;
+  padding: 5%;
 }
 
 .buttoncontainer {
