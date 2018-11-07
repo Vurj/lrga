@@ -68,6 +68,30 @@ p {
 
   }
 
+.socialmedia{
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+  margin-top: 1%;
+  padding: 0.5% 1% 0.5% 2%;
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  width: 7%;
+  background-color: rgba(36, 46, 70, 100);
+  -webkit-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+}
+
+.socialmedia a {
+  width: 100%;
+  margin: 5%;
+}
+
+.socialmedia img{
+  width: 100%;
+}
+
 .herowrapper{
   background-color: rgba(36, 46, 70, 100);
   width: 100%;
@@ -85,7 +109,7 @@ p {
 
 
 .topcontent {
-  b-webkit-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
 box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
   pointer-events: none;
@@ -215,11 +239,11 @@ box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
 }
 
 .infocontent {
-  margin-top: 6%;
+  margin: 6% 7% 10% 7%;
   pointer-events: auto;
   display: grid;
   grid-template-columns: 1.8fr 1fr;
-  padding-bottom: 90px;
+  padding: 0
 }
 
 @media (max-width: 1300px) {
@@ -239,23 +263,26 @@ box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
 
 .textcontainer3 {
   display: grid;
-  padding-left: 120px;
   padding-right: 11%;
 }
 
-.imgframe  {
+.imgcontainer{
   margin-top: 15%;
-  margin-right: 5%;
-  padding: 10px;
 
 }
 
-.imgframe img{
+.imgframe  {
   background-color: #212B3F;
   -webkit-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
 box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
   padding: 10px;
+}
+
+
+
+.imgframe img{
+
 }
 
 .imgframe2 {
