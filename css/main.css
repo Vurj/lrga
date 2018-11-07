@@ -229,7 +229,7 @@ box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
 }
 
 .infocontent {
-  margin: 4% 7% 6% 7%;
+  margin: 0% 7% 6% 7%;
   pointer-events: auto;
   display: grid;
   grid-template-columns: 1.8fr 1fr;
