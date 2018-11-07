@@ -170,7 +170,8 @@ p {
 .fancontainer {
   padding-right: 60%;
   margin-top: -3%;
-  display: grid;
+  margin-bottom: 3%;
+  display: none;
   justify-content: end;
 
 }
@@ -239,14 +240,21 @@ p {
   padding-right: 40px;
 }
 
+.imgframe  {
+  margin-top: 15%;
+  margin-right: 3%;
+  background-color: #212B3F;
+  padding: 10px;
+}
+
 @media (max-width: 1200px) {
   .textcontainer3 {
       padding-left: 70px;
   }
 }
 
-.textcontainer3 h2 {
-  font-size: 1.563em;
+.textcontainer3 h1 {
+  font-size: ;
   color: black;
 }
 
@@ -337,6 +345,10 @@ p {
     .bronzepanel, .silverpanel, .goldpanel {
     margin-bottom: -60px;
     }
+}
+
+.textcontainer4 {
+  grid-column: span 2;
 }
 
 .bookingtext h1{
@@ -437,7 +449,7 @@ background-size:contain;
 
 .tbcontent{
 
-  padding: 200px 127px 127px 100px;
+  padding: 50px 127px 127px 100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
