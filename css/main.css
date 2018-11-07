@@ -213,6 +213,7 @@ p {
 }
 
 .infocontent {
+  margin-top: 6%;
   pointer-events: auto;
   display: grid;
   grid-template-columns: 1.8fr 1fr;
@@ -237,13 +238,22 @@ p {
 .textcontainer3 {
   display: grid;
   padding-left: 120px;
-  padding-right: 40px;
+  padding-right: 11%;
 }
 
 .imgframe  {
   margin-top: 15%;
-  margin-right: 3%;
+  margin-right: 5%;
   background-color: #212B3F;
+  box-shadow: 10px 10px 11px -4px rgba(0,0,0,0.44);
+  padding: 10px;
+}
+
+.imgframe2 {
+  margin-top: 15%;
+  margin-right: 3%;
+  background-color: white;
+  box-shadow: 10px 10px 11px -4px rgba(0,0,0,0.44);
   padding: 10px;
 }
 
@@ -430,6 +440,7 @@ background-size:contain;
 .buttoncontainer {
   display: grid;
   justify-content: center;
+  align-items: center;
 }
 
 .buttoncontainer a{
