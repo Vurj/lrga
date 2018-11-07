@@ -229,7 +229,7 @@ box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
 }
 
 .infocontent {
-  margin: 6% 7% 6% 7%;
+  margin: 4% 7% 6% 7%;
   pointer-events: auto;
   display: grid;
   grid-template-columns: 1.8fr 1fr;
@@ -552,6 +552,23 @@ box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
   padding: 15px 20px 15px 20px;
   background-color: #DC4F4F;
   color: white;
+}
+
+
+.gameslist {
+    overflow-y: scroll;
+    color: black;
+    height: 50%;
+}
+
+.gameslist h2 {
+    color: black;
+    background-color:
+}
+
+.gameslist p {
+    color: black;
+    background-color:
 }
 
 .tbcontent{
