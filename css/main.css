@@ -229,7 +229,7 @@ box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
 }
 
 .infocontent {
-  margin: 0% 7% 6% 7%;
+  margin: 0% 7% 3% 7%;
   pointer-events: auto;
   display: grid;
   grid-template-columns: 1.8fr 1fr;
@@ -533,7 +533,7 @@ background-size:cover;
   box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
 /* background-color: #212B3F; */
   display: grid;
-  padding: 5% 7% 5% 10%;
+  padding: 2% 7% 5% 10%;
 
 }
 
