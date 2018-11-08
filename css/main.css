@@ -545,6 +545,7 @@ background-size:cover;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5%;
+  grid-row-gap: 5%;
   padding: 5%;
 }
 
