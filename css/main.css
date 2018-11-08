@@ -567,6 +567,24 @@ box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
   color: white;
 }
 
+.privbtncontainer{
+display: grid;
+justify-content: center;
+align-items: center;
+}
+
+.privbtn  {
+  -webkit-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+  padding: 15px 20px 15px 20px;
+  background-color: #DC4F4F;
+  color: white;
+}
+
+.privbtn {
+  width: 100%;
+}
 
 .gameslist {
   -webkit-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
