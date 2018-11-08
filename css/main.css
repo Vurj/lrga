@@ -393,6 +393,10 @@ box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
     .bronzepanel, .silverpanel, .goldpanel {
     margin-bottom: -60px;
     }
+
+    .textcontainer4 {
+      grid-column: span 1;
+    }
 }
 
 .textcontainer4 {
