@@ -308,18 +308,19 @@ box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
 }
 
 .multilogos {
-  margin: 5% 0 20px 0;
-  border-left: 1px solid;
-  border-color: black;
+  margin: 3% 0 20px 0;
+
   display: grid;
+  grid-column: span 2;
 }
 
 .multilogoscontainer{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   padding: 10px 40px 10px 40px;
   justify-items: center;
   align-content: center;
+  grid-column-gap: 1%
 }
 
 @media (max-width: 770px) {
@@ -500,9 +501,10 @@ background-size:cover;
 .fancontainer {
 
   padding-right: ;
-  margin-top: -15%;
+  margin-right: -4%;
+  margin-top: -5%;
   margin-left: -23%;
-  margin-bottom: 3%;
+  margin-bottom: 0%;
   display: grid;
   justify-content: ;
 
@@ -532,6 +534,10 @@ background-size:cover;
 }
 
 .screenshots{
+  -webkit-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+  background-color: #212B3F;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5%;
