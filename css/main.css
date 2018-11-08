@@ -563,23 +563,32 @@ box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
 
 
 .gameslist {
-    overflow-y: scroll;
+  -webkit-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     color: black;
-    height: 50%;
+    background-color: #212B3F;
+    padding: 0 5% 2% 5%;
+    margin-bottom: 15%;
 }
 
 .gameslist h2 {
-    color: black;
+  font-size: 170%;
+  font-weight: 500;
+    color: white;
     background-color:
 }
 
 .gameslist p {
-    color: black;
+    color: white;
     background-color:
 }
 
 .tbcontent{
-
+  grid-row-gap: 5%;
   padding: 50px 127px 127px 100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
