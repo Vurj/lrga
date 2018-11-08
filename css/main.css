@@ -363,7 +363,15 @@ box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
   border-color: white;
 }
 
-@media (max-width: 770px){
+.textcontainer4 {
+  grid-column: span 2;
+}
+.textcontainer5 {
+  margin-bottom: 40px;
+  grid-column: span 3;
+
+}
+@media (max-width: 870px){
   .bookingcontent {
   padding: 50px 20% 70px 20%;
   column-gap: 10px;
@@ -379,15 +387,15 @@ box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
     margin:  0 -20px -20px -20px;
   }
     .btext2{
-    grid-row: start 2;
+    grid-row: start 5;
     margin-top: -20px;
     }
     .stext2 {
-      grid-row: start 4;
+      grid-row: start 7;
       margin-top: -20px;
     }
     .gtext2 {
-      grid-row: start 6;
+      grid-row: start 9;
       margin-top: -20px;
     }
     .bronzepanel, .silverpanel, .goldpanel {
@@ -397,17 +405,15 @@ box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
     .textcontainer4 {
       grid-column: span 1;
     }
+    .textcontainer5 {
+      margin-bottom: 40px;
+      grid-column: span 1;
+
+    }
 }
 
-.textcontainer4 {
-  grid-column: span 2;
-}
 
-.textcontainer5 {
-  margin-bottom: 40px;
-  grid-column: span 3;
 
-}
 
 .bookingtext h1{
   font-size: 2.188em;
@@ -635,4 +641,11 @@ box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
 
 .footer{
   background-color: #212B3F;
+}
+
+@media (max-width: 870px){
+  .tbcontent{
+    grid-template-columns: 1fr 1fr;
+  }
+
 }
