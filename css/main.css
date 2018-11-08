@@ -344,7 +344,7 @@ box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
 box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
   background-color: #212B3F;
   display: grid;
-  padding: 50px 120px 140px 120px;
+  padding: 50px 120px 220px 120px;
   column-gap: 40px;
   grid-template-columns: 1fr 1fr 1fr;
 
