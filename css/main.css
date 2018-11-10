@@ -652,6 +652,11 @@ box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
 @media (max-width: 870px){
   .tbcontent{
     grid-template-columns: 1fr 1fr;
+    padding: 5% 3% 5% 3%;
   }
+
+ .tbcontent h1{
+   grid-column: span 2;
+ }
 
 }
